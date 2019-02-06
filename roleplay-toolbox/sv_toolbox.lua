@@ -153,7 +153,7 @@ end)
 -- DO NOT REMOVE --
 
 local CurrentVersion = '1.0.0'
-local GithubResourceName = 'roleplay-toolbox'
+local GithubResourceName = 'roleplay-toolbox-resources'
 
 PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/roleplay-toolbox-resources/master/roleplaytoolbox/VERSION', function(Error, NewestVersion, Header)
 	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/roleplay-toolbox-resources/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
