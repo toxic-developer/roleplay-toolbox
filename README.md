@@ -19,3 +19,6 @@ Menu is toggled via M
 # Install Instructions
 1. Add roleplay-toolbox to your server resources
 2. Add start roleplay-toolbox to your server.cfg
+
+# Known Bugs
+Turning the engine off when using ELS, with your lights activated will keep the engine on.
