@@ -155,12 +155,12 @@ end)
 local CurrentVersion = '1.0.1'
 local GithubResourceName = 'roleplay-toolbox-resources'
 
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/roleplay-toolbox-resources/master/roleplaytoolbox/VERSION', function(Error, NewestVersion, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/roleplay-toolbox-resources/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/roleplay-toolbox-resources/master/VERSION', function(Error, NewestVersion, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/roleplay-toolbox-resources/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
 		print('\n')
 		print('--------------------------------------------------------------------')
 		print('')
-		print('Roleplay Toolbox')
+		print('Roleplay Toolbox By GrimDesigns')
 		print('')
 		print('Current Version: ' .. CurrentVersion)
 		print('Newest Version: ' .. NewestVersion)
