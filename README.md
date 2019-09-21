@@ -14,7 +14,7 @@ Civ Toolbox - With Hands up, kneel with hands up, drop your weapon, adverts and 
 
 Vehicle Toolbox - With engine toggle, open specific doors, the trunk and the hood, open front and rear windows and delete your vehicle.
 
-Menu is toggled via M
+Menu is toggled via Numpad 9
 
 # Install Instructions
 1. Add roleplay-toolbox to your server resources
