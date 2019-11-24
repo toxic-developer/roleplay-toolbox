@@ -74,13 +74,13 @@ end
 	sendData function. The name of the data-action is passed as the parameter
 	variable data. 
 ------------------------------------------------------------------------]]--
-RegisterNUICallback( "ButtonClick", function( data, cb ) 
+--[[RegisterNUICallback( "ButtonClick", function( data, cb ) 
 
 	-- [Whitelisting] To remove this add "--[[" on line 77 and "--]]" on line 213.
 
 	-- [Law Enforcement Officer]
 
-	if ( data == "cuff") and not IsAllowedPed("leo") then
+	--[[if ( data == "cuff") and not IsAllowedPed("leo") then
 		ToggleActionMenu()
 	    return
 	    drawNotification("~r~You are not a Police officer!")
@@ -165,7 +165,7 @@ RegisterNUICallback( "ButtonClick", function( data, cb )
 	    return
 		drawNotification("~r~You are not a Police officer!")
 
-	-- [Fire Department/Emergency Services]
+	--[[-- [Fire Department/Emergency Services]
 
 	elseif ( data == "seat2") and not IsAllowedPed("fd") then
 		ToggleActionMenu()
@@ -210,7 +210,7 @@ RegisterNUICallback( "ButtonClick", function( data, cb )
 	elseif ( data == "notes2") and not IsAllowedPed("fd") then
 		ToggleActionMenu()
 	    return
-		drawNotification("~r~You are not Fire or EMS!")
+	      drawNotification("~r~You are not Fire or EMS!")--]]
 
    -- [Civ Toolbox]
 
